@@ -1,0 +1,4 @@
+Example
+=======
+
+Example repository
