@@ -11,7 +11,7 @@ public class TestJDBC {
 		try {
 			   Class.forName("oracle.jdbc.driver.OracleDriver");
 			   System.out.println("step1 completed");
-			   con=DriverManager.getConnection("jdbc:oracle:thin:@m039206:1521:orcl","system","u_pick_it");
+			   con=DriverManager.getConnection("jdbc:oracle:thin:@m039206:1521:orcl","root","mysql");
 			   System.out.println("step2 completed");
 			   Statement stmt=con.createStatement();
 			   System.out.println("step3 completed");
